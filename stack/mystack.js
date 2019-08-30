@@ -1,3 +1,6 @@
+/**
+ * 使用数组模拟栈
+ */
 class Stack {
   constructor() {
     this.items = [] //  使用数组保存数据
