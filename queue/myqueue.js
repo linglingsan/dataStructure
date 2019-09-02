@@ -20,7 +20,7 @@ class Queue {
   }
   //  返回队列尾部元素
   tail() {
-    return this.items[items.length -1]
+    return this.items[this.items.length -1]
   }
   //  返回队列大小
   size() {
