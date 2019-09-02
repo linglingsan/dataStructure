@@ -53,9 +53,7 @@ class QueueStack {
   }
   clear() {
     this.initQueue()
-    while (!this.sourceQueue.isEmpty()) {
-      this.sourceQueue.dequeue()
-    }
+    this.sourceQueue.clear()
   }
 }
 
